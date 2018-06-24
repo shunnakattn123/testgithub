@@ -1,0 +1,36 @@
+{
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "/brank_case.php": {
+                    "command": "",
+                    "name": "/brank_case.php",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
